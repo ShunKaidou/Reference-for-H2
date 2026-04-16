@@ -1,0 +1,76 @@
+[
+    {
+        "src_system": "P93",
+        "apiuid": "QCLADPLANTafc470aa390d0ca281a5dd4",
+        "parent_plant": [
+            {
+                "uuid": "QCLADPLANT0759ceb470aa570d2da251a3f16",
+                "werks": "0759",
+                "warehouse": "N",
+                "parentplantcode": "N\/A",
+                "name1": "A CN Dragon",
+                "bwkey": "0759",
+                "kunnr": "001AW00759",
+                "lifnr": "0000372945",
+                "name2": null,
+                "stras": "NO.33,Shungong Road",
+                "ort01": "Shanghai",
+                "land1": "CN",
+                "v_land1": "Peoples Republic of China",
+                "cityc": null,
+                "adrnr": "0000087724",
+                "childCrhd": [
+                    {
+                        "arbpl": "QC-LAB",
+                        "verwe": "PI0",
+                        "planv": "009"
+                    },
+                    {
+                        "arbpl": "AI-QCLAB",
+                        "verwe": "003",
+                        "planv": null
+                    },
+                    {
+                        "arbpl": "MPT-LAB",
+                        "verwe": "003",
+                        "planv": null
+                    },
+                    {
+                        "arbpl": "902QCLAB",
+                        "verwe": "003",
+                        "planv": null
+                    },
+                    {
+                        "arbpl": "903QCLAB",
+                        "verwe": "003",
+                        "planv": "009"
+                    }
+                ]
+            },
+            {
+                "uuid": "QCLADPLANTS5P9ceb470aa570d2da239a3f16",
+                "werks": "S5P9",
+                "warehouse": "Y",
+                "parentplantcode": "0759",
+                "name1": "WH CN SH BF DG",
+                "bwkey": "S5P9",
+                "kunnr": "00PA00S5P9",
+                "lifnr": "00PAY0S5P9",
+                "name2": null,
+                "stras": "No.10359 Puwei Road,  Jinshan",
+                "ort01": "Shanghai",
+                "land1": "CN",
+                "v_land1": "Peoples Republic of China",
+                "cityC": null,
+                "adrnr": "2392416",
+                "childCrhd": [
+                    {
+                        "arbpl": "QC-LAB",
+                        "verwe": "PI0",
+                        "planv": "009"
+                    }
+                ]
+            }
+        ]
+    }
+]

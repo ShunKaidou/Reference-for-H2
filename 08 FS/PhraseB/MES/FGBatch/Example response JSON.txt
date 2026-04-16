@@ -1,0 +1,53 @@
+Example response JSON:
+[
+    {
+        "srcSystem": "R93",
+        "apiuid": "INP_API_690B7D1CB73E1FE0A089A97405134345",
+        "bulkFgPlant": [
+            {
+                "plant": "0759",
+                "fillMatList": [
+                    {
+						"bulkFgUuid": "BLK_FG_320B7D1CB73E1FD09F86E2AE26B7B91C",
+                        "bulkMatList": [
+                            {
+                                "bulkIdh": "2163432",
+                                "bulkBatchNumber": "BULK2234",
+                                "bulkProcessNumber": "0970646",
+                                "ReturnCode": "0001",
+								"Description": "Success"
+                            },
+                            {
+                                "bulkIdh": "2163433",
+                                "bulkBatchNumber": "BULK2235",
+                                "bulkProcessNumber": "0970648",
+                                "ReturnCode": "0002",
+								"Description": "No Batch Found"
+                            }
+
+                        ]
+                    },
+                    {
+                        "bulkFgUuid": "BLK_FG_320B7D1CB73E1FD09F86E2AE26B7B91E",
+                        "bulkMatList": [
+                            {
+                                "bulkIdh": "2163432",
+                                "bulkBatchNumber": "BULK2234",
+                                "bulkProcessNumber": "0970646",
+                                "ReturnCode": "0001",
+								"Description": "Success"
+                            },
+                            {
+                                "bulkIdh": "2163433",
+                                "bulkBatchNumber": "BULK2235",
+                                "bulkProcessNumber": "0970648",
+                                "ReturnCode": "0001",
+								"Description": "Success"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

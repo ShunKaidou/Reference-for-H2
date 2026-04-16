@@ -1,0 +1,69 @@
+ [{"src_system":"P93",
+   "apiuid":"QCLADPLANTafc470aa390d0ca281a5dd4",
+   "parent_plant":[
+     {"uuid":"QCLADPLANT0759ceb470aa570d2da251a3f16",
+      "werks":"0759",
+      "warehouse":"N",
+      "parentplantcode":"N\/A",
+      "name1":"A CN Dragon",
+      "bwkey":"0759",
+      "kunnr":"001AW00759",
+      "lifnr":"0000372945",
+      "name2":null,
+      "stras":"NO.33,Shungong Road",
+      "ort01":"Shanghai",
+      "land1":"CN",
+      "v_land1":"Peoples Republic of China",
+      "cityc":null,
+      "adrnr":"0000087724",
+      "childCrhd":[
+         {"arbpl":"QC-LAB","verwe":"PI0","planv":"009"},
+         {"arbpl":"AI-QCLAB","verwe":"003","planv":null},
+         {"arbpl":"MPT-LAB","verwe":"003","planv":null},
+         {"arbpl":"902QCLAB","verwe":"003","planv":null},
+         {"arbpl":"903QCLAB","verwe":"003","planv":"009"}
+                  ] 
+     }, 
+     {
+	"uuid":"QCLADPLANT0759ceb470aa570d2da251a3f17",
+      "werks":"S5P9",
+      "warehouse":"Y",
+      "parentplantcode":"0759",
+      "name1":"WH CN SH BF DG",
+      "bwkey":"S5P9",
+      "kunnr":"00PA00S5P9",
+      "lifnr":"00PAY0S5P9",
+      "name2":null,
+      "stras":"No.10359 Puwei Road,  Jinshan",
+      "ort01":"Shanghai",
+      "land1":"CN",
+      "v_land1":"Peoples Republic of China",
+      "cityC":null,
+      "adrnr":"2392416", 
+      "childCrhd":[{"arbpl":"QC-LAB","verwe":"PI0","planv":"009"}]
+     }
+     ]
+ },
+ {"src_system":"P92",
+  "apiuid":"QCLADPLANTafc470aa432d0ca281a5da4",
+  "parent_plant": [
+      {"uuid":"QCLADPLANT3372ceb470aa570d2da251a3f16"
+       "werks":"3372",
+       "warehouse":"N",
+       "parentplantcode":"N\/A",
+       "name1":"A CN Wai Gao Qiao Unbonded",
+       "bwkey":"3372",
+       "kunnr":"00PA003372",
+       "lifnr":"00PA003372",
+       "name2":null,
+       "stras":"332 Meigui South Road",
+       "ort01":"Shanghai",
+       "land1":"CN",
+       "v_land1":"Peoples Republic of China",
+       "cityc":null,
+       "adrnr":"0006504543",
+       "childCrhd":[{"arbpl":"QC-LAB","verwe":"PI01","planv":"009"} ]
+      }
+      ] 
+ }
+ ]        

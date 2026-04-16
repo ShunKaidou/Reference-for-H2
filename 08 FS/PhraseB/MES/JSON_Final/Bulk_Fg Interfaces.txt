@@ -1,0 +1,77 @@
+*************************************
+	BULK-FG Replationship Info Sending   
+*************************************
+1. QCLAD need to give one API, to which data will be send from Vegam.
+2. Vegam is expecting details from QCLAD in future to share API path and authentication details
+3. Vegam will send below payload as JSON
+
+	[
+	{
+		"PlantCode":"0759",
+		"BulkMaterialList":[
+		{
+			"BulkIdh":"2201245",
+			"BulkBatchNumber":"BulkBatch1",
+			"FillingMaterialList":[
+				{
+					"FillingIdh":"210123",
+					"FillingBatch":"FgBatch1"
+				},
+				{
+					"FillingIdh":"210124",
+					"FillingBatch":"FgBatch2"
+				}
+			]
+		},
+		{
+			"BulkIdh":"2201246",
+			"BulkBatchNumber":"BulkBatch1",
+			"FillingMaterialList":[
+				{
+					"FillingIdh":"210125",
+					"FillingBatch":"FgBatch3"
+				},
+				{
+					"FillingIdh":"210126",
+					"FillingBatch":"FgBatch4"
+				}
+			]
+		}
+		]
+	},
+	{
+		"PlantCode":"0799",
+		"BulkMaterialList":[
+		{
+			"BulkIdh":"2201245",
+			"BulkBatchNumber":"BulkBatch1",
+			"FillingMaterialList":[
+				{
+					"FillingIdh":"210123",
+					"FillingBatch":"FgBatch1"
+				},
+				{
+					"FillingIdh":"210124",
+					"FillingBatch":"FgBatch2"
+				}
+			]
+		},
+		{
+			"BulkIdh":"2201246",
+			"BulkBatchNumber":"BulkBatch1",
+			"FillingMaterialList":[
+				{
+					"FillingIdh":"210125",
+					"FillingBatch":"FgBatch3"
+				},
+				{
+					"FillingIdh":"210126",
+					"FillingBatch":"FgBatch4"
+				}
+			]
+		}
+		]
+	}
+]
+	
+4. For this API Call Vegam expects some response messages from QCLAD API like success, failure or authentication error etc.

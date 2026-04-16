@@ -1,0 +1,65 @@
+[
+    {
+        "ID_NUMERIC": "20",
+        "ON_SPEC": "FALSE",
+        "RE_SAMPLED": "FALSE",
+        "ORIGINAL_SAMPLE": "0",
+        "DATE_AUTHORISED": "45532.2400453356",
+        "AUTHORISER": "SYSTEM",
+        "AUTHORISATION_NOTES": "Automatically authorised",
+        "SAMPLE_TYPE": "IQC-STD",
+        "DESCRIPTION": "",
+        "SUBSTANCE": "",
+        "COMMENTS": "NULL",
+        "HEN_GROUP_ID": " ",
+        "HEN_PLANT": "",
+        "HEN_STORAGE_CONDITION": "",
+        "HEN_WORK_CENTER": "",
+        "HEN_DATE_MFG": "NULL",
+        "HEN_DATE_EXPIRED": "NULL",
+        "HEN_DATE_LOGIN": "45532.1769000347",
+        "HEN_PHASE_NUMBER": " ",
+        "HEN_MES_ID": " ",
+        "HEN_INSPECTION_CATEGORY": " ",
+        "HEN_PROD_LINE": " ",
+        "HEN_INSPECTION_LOT": " ",
+        "TEST": [
+            {
+                "TEST_NUMBER": "47",
+                "ANALYSIS": "TEST",
+                "SAMPLE": "20",
+                "ON_SPEC": "FALSE",
+                "ANALYSIS_VERSION": "1",
+                "PARENT_TEST": "NULL",
+                "AUTHORISATION_COMMENT": "",
+                "COMMENTS": "NULL",
+                "RESULT": [
+                    {
+                        "TEST_NUMBER": "48",
+                        "NAME": "Weight",
+                        "RESULT_TYPE": "",
+                        "UNITS": "10",
+                        "VALUE": "SYSTEM",
+                        "TEXT": "10",
+                        "PLACES": "NULL",
+                        "OUT_OF_RANGE": "FALSE",
+                        "RAW_RESULT": "5",
+                        "COMMENTS": "NULL"
+                    },
+                    {
+                        "TEST_NUMBER": "48",
+                        "NAME": "Mass",
+                        "RESULT_TYPE": "",
+                        "UNITS": "10",
+                        "VALUE": "SYSTEM",
+                        "TEXT": "10",
+                        "PLACES": "NULL",
+                        "OUT_OF_RANGE": "FALSE",
+                        "RAW_RESULT": "10",
+                        "COMMENTS": "NULL"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,126 @@
+Security Tag:82-42-77-B5-C4-BF-85-15-4B-12-E7-9B-00-20-04-7D-83-A8-01-C7
+{
+  "name": "Config Header Export",
+  "description": "Entity Deployment Package",
+  "Timestamp": "2025-01-15T23:20:27.388",
+  "Version": "21.2.0.0",
+  "operations": [
+    {
+      "description": "Data Check",
+      "operation": "data_check",
+      "deploy_action": "Run",
+      "icon": "INT_AUDITING",
+      "datastore": {
+        "PERSONNEL SYSTEM    ": {
+          "keyValueItems": {
+            "entityType": "PERSONNEL",
+            "identity": "SYSTEM    ",
+            "name": "System Manager"
+          }
+        },
+        "PHRASE_CONFG_TYPE CONFG_TYPETEXT      ": {
+          "keyValueItems": {
+            "entityType": "PHRASE",
+            "identity": "CONFG_TYPETEXT      ",
+            "name": "TEXT"
+          }
+        },
+        "PHRASE_CONFG_CATG CONFG_CATGEXTERNAL  ": {
+          "keyValueItems": {
+            "entityType": "PHRASE",
+            "identity": "CONFG_CATGEXTERNAL  ",
+            "name": "EXTERNAL"
+          }
+        }
+      }
+    },
+    {
+      "description": "CONFIG_HEADER - HEN_ACCESS_TOKEN_URL",
+      "operation": "default set",
+      "deploy_action": "Create",
+      "entityType": "CONFIG_HEADER",
+      "icon": "INT_SETTINGS",
+      "keys": {
+        "IDENTITY": "HEN_ACCESS_TOKEN_URL"
+      },
+      "fieldValues": {
+        "MODIFIABLE": true,
+        "USER_MODIFIABLE": false,
+        "DESCRIPTION": "Access Token URL",
+        "DATA_TYPE": "TEXT",
+        "VALUE": "https://henkel-dev-integrationsuite.authentication.eu10.hana.ondemand.com/oauth/token",
+        "CATEGORY": "EXTERNAL",
+        "CLIENT_ITEM": false,
+        "VALUE_MANDATORY": false,
+        "VALUE_ENCRYPTED": false
+      },
+      "subOperations": []
+    },
+    {
+      "description": "CONFIG_HEADER - HEN_CLIENT_ID",
+      "operation": "default set",
+      "deploy_action": "Create",
+      "entityType": "CONFIG_HEADER",
+      "icon": "INT_SETTINGS",
+      "keys": {
+        "IDENTITY": "HEN_CLIENT_ID"
+      },
+      "fieldValues": {
+        "MODIFIABLE": true,
+        "USER_MODIFIABLE": false,
+        "DESCRIPTION": "Client ID",
+        "DATA_TYPE": "TEXT",
+        "VALUE": "sb-46d4dc6c-065e-4a2a-8c15-79bcc552cfd1!b129123|it-rt-henkel-dev-integrationsuite!b117912",
+        "CATEGORY": "EXTERNAL",
+        "CLIENT_ITEM": false,
+        "VALUE_MANDATORY": false,
+        "VALUE_ENCRYPTED": false
+      },
+      "subOperations": []
+    },
+    {
+      "description": "CONFIG_HEADER - HEN_CLIENT_SECRET",
+      "operation": "default set",
+      "deploy_action": "Create",
+      "entityType": "CONFIG_HEADER",
+      "icon": "INT_SETTINGS",
+      "keys": {
+        "IDENTITY": "HEN_CLIENT_SECRET"
+      },
+      "fieldValues": {
+        "MODIFIABLE": true,
+        "USER_MODIFIABLE": false,
+        "DESCRIPTION": "Client Secret",
+        "DATA_TYPE": "TEXT",
+        "VALUE": "57aa08c7-4396-4705-8382-440f3b4894e4$kv7DqCrkeaPBnDW-yOIkQalrfp76ruJVOgQDbCyVKos=",
+        "CATEGORY": "EXTERNAL",
+        "CLIENT_ITEM": false,
+        "VALUE_MANDATORY": false,
+        "VALUE_ENCRYPTED": false
+      },
+      "subOperations": []
+    },
+    {
+      "description": "CONFIG_HEADER - HEN_GRANT_TYPE",
+      "operation": "default set",
+      "deploy_action": "Create",
+      "entityType": "CONFIG_HEADER",
+      "icon": "INT_SETTINGS",
+      "keys": {
+        "IDENTITY": "HEN_GRANT_TYPE"
+      },
+      "fieldValues": {
+        "MODIFIABLE": true,
+        "USER_MODIFIABLE": false,
+        "DESCRIPTION": "Grant type",
+        "DATA_TYPE": "TEXT",
+        "VALUE": "Client Credentials",
+        "CATEGORY": "EXTERNAL",
+        "CLIENT_ITEM": false,
+        "VALUE_MANDATORY": false,
+        "VALUE_ENCRYPTED": false
+      },
+      "subOperations": []
+    }
+  ]
+}

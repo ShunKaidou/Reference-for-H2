@@ -1,0 +1,13 @@
+
+// This will be JSON structure of JIT to send the details to the QCLAD API
+
+{
+  "sampleType": "RECEIVING_SAMPLE",
+  "sampleLabelNumber": "0000216316",
+  "processOrder": null,
+  "batchNumber": "A1233",
+  "materialNumber": "383743",
+  "materialDescription": "Adeka Hardener EH 4070 S",
+  "plantCode": "0799",
+  "activityNumber": null,
+  }

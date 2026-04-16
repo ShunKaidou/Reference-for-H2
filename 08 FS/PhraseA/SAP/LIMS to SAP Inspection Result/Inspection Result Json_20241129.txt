@@ -1,0 +1,39 @@
+[
+    {
+        "ID_NUMERIC": "20",
+        "ON_SPEC": "A",
+        "DATE_STARTED": "2024-11-29 12-10-00",
+        "DATE_AUTHORIZED": "2024-11-29 14-10-00",
+        "AUTHORISATION_NOTES": "Automatically authorised",
+        "HEN_PHASE_NUMBER": "0010 ",
+        "HEN_UUID": " 432Y534U5U6U3963939",
+        "HEN_INSPECTION_LOT": "34546432 ",
+        "TEST": [
+            {
+                "TEST_NUMBER": "47",
+                "RESULT": [
+                    {
+                        "TEST_NUMBER": "47",
+                        "NAME": "Weight",
+                        "RESULT_TYPE": "N",
+                        "HEN_ORDER_NO": "0010",
+                        "ENTERED_BY": "SYSTEM",
+                        "OUT_OF_RANGE": "A",
+                        "RAW_RESULT": "5",
+                        "COMMENTS": "NULL"
+                    },
+                    {
+                        "TEST_NUMBER": "47",
+                        "NAME": "Mass",
+                        "RESULT_TYPE": "O",
+                        "HEN_ORDER_NO": "0010",
+                        "ENTERED_BY": "SYSTEM",
+                        "OUT_OF_RANGE": "A",
+                        "RAW_RESULT": "1",
+                        "COMMENTS": "NULL"
+                    }
+                ]
+            }
+        ]
+    }
+]

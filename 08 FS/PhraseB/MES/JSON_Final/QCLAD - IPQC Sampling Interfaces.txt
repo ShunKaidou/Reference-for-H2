@@ -1,0 +1,59 @@
+
+	IPQC Sample Info Receiving   // Finalised 
+*************************************
+1. Vegam will expose one API (path will be provided later, same IPQC info receiving API will be used), to which data will be send from QCLAD once QC is done for IPQC sample number.
+2. This API path and authentication credentials like client ID and client secret will be shared by Vegam (these will be same as IPQC receiving info). 
+   Using these credentials QCLAD need to get bearer token using Vegam oAuth API (path will be provided later).
+3. QCLAD need to send sample QC data as below JSON with authentication as bearer token which is generated in step 2.
+
+	{
+		"sampleType": "PRODUCTION_SAMPLE",
+		"sampleLabelNumber": "371584",
+		"processOrder": "001004172754",
+		"batchNumber": "0007447212",
+		"materialNumber": "1392015",
+		"materialDescription": "Liquid Detergent Lavender",
+		"plantCode": "0799",
+		"activityNumber": "0023",
+		"sampleApprovalRejectedTime": "YYYY-MM-DDTHH:mm:ssZ",
+		"operatorName": "",
+		"sampleStatus": "Approved" [Approved or Rejected]
+		"isQCAdjustment": true,  [True/False]
+		"adjustMaterials": [
+		{
+			"materialNumber": "",
+			"batchNumber": "",
+			"quantity": 0,
+			"uom": ""
+			"storageLocation" : ""
+		}
+		],
+		"consesssionRelease": false, [True or False]
+		"resampleRequired": false,   [True or False]
+		"remark": "",
+		"MIC_List":[{
+			"inspectionCharNumber":"",				//INSPCHAR    
+			"masterInspectionCharacteristics":"",	//MSTR_CHAR    
+			"inspectionCharacteristicsText":"",		//CHAR_DESCR   
+			"inspectionMethod":"",					//METHOD       
+			"inspectionMethodText":"",				//METHOD_TXT    
+			"lowerSpecLimit":0,						//LW_TOL_LMT    
+			"upperSpecLimit":0,						//UP_TOL_LMT    
+			"decimalPlace":0,						//DEC_PLACES    
+			"measureUnit":"",						//MEAS_UNIT      
+			"resultRecordType":"",					//CHAR_TYPE       
+			"InspectionResult":"",					//if CHAR_TYPE==1 then input here recorded result   1   // Vegam needs clear result as a string (Numeric or Accepted/Rejected)
+			"codeText":""							//Accepted or Rejected text           
+		}]
+	}
+	
+4. In response Vegam will return response in below structure
+	{
+		"ReturnCode": "",
+		"Description": ""
+	}
+
+5. Below are the error codes and description
+	"ReturnCode": "0001", "Description": "Success"
+	"ReturnCode": "0002", "API Authentication Error"
+	"ReturnCode": "0003", "Invalid Sample Number"

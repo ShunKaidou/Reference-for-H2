@@ -1,0 +1,32 @@
+[
+    {
+        "SAMPLE_NUMBER": "20",
+        "SOURCE_SYSTEM": "P93",
+        "WERKS": "0759",
+        "INSPECTION_POINT_EVALUATION": "A",
+        "START_DATE": "2024-11-29 12-10-00",
+        "END_DATE": "2024-11-29 14-10-00",
+        "INSPECTION_POINT_REMARK": "Automatically authorised",
+        "INSPOPER": "0010 ",
+        "INSP_LOT_UUID": " 432Y534U5U6U3963939",
+        "PRUEFLOS": "34546432 ",
+        "TEST": [
+            {
+                "TEST_NUMBER": "47",
+                "RESULT": [
+                    {
+                        "TEST_NUMBER": "47",
+                        "EVALUATED":"x",
+                        "NAME": "Weight",
+                        "RESULT_TYPE": "N",
+                        "INSPCHAR": "0010",
+                        "INSPECTOR": "SYSTEM",
+                        "EVALUATION": "A",
+                        "RAW_RESULT": "5",
+                        "REMARK": "NULL"
+                    }
+                ]
+            }
+        ]
+    }
+]

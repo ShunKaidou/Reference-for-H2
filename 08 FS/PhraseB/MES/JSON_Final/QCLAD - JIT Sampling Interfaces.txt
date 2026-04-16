@@ -1,0 +1,36 @@
+
+	JIT Sample Info Receiving    
+*************************************
+1. Vegam will expose one API (path will be provided later), to which data will be send from QCLAD once QC is done for JIT sample number.
+2. This API path and authentication credentials like client ID and client secret will be shared by Vegam. 
+   Using these credentials QCLAD need to get bearer token using Vegam oAuth API (path will be provided later).
+3. QCLAD need to send sample QC data as below JSON with authentication as bearer token which is generated in step 2.
+
+	{
+	  "sampleType": "RECEIVING_SAMPLE",
+	  "sampleLabelNumber": "0000216316",
+	  "processOrder": null,
+	  "batchNumber": "A1233",
+	  "materialNumber": "383743",
+	  "materialDescription": "Adeka Hardener EH 4070 S",
+	  "plantCode": "0799",
+	  "activityNumber": null,
+	  "sampleApprovalRejectedTime": "YYYY-MM-DDTHH:mm:ssZ",
+	  "operatorName": "4454",  // To be discuused 
+	  "sampleStatus": "Rejected",   [Approved or Rejected]	  
+	  "adjustMaterials": [],
+	  "consesssionRelease": false,
+	  "resampleRequired": false,
+	  "remark": ""
+	}
+	
+4. In response Vegam will return response in below structure
+	{
+		"ReturnCode": "",
+		"Description": ""
+	}
+
+5. Below are the error codes and description
+	"ReturnCode": "0001", "Description": "Success"
+	"ReturnCode": "0002", "API Authentication Error"
+	"ReturnCode": "0003", "Invalid Sample Number"

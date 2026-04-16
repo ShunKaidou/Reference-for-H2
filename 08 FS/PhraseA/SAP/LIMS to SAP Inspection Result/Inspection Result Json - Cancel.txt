@@ -1,0 +1,26 @@
+{
+    "SampleNumber": "1116",
+    "SourceSystem": "P93",
+    "Werks": "0759",
+    "InspectionPointEvaluation": "C",
+    "StartDate": "20250513072300",
+    "EndDate": "20250513072313",
+    "InspectionPointRemark": "",
+    "Inspoper": "0010",
+    "InspLotUuid": "INSP_DATA_0F0A329713FF1EDFBFC2FBBF47C14E",
+    "Prueflos": "13949118",
+    "SM_RESULT": [
+        {
+            "SampleNumber": "1116",
+            "TestNumber": "",
+            "Evaluated": "",
+            "Name": "",
+            "ResultType": "",
+            "Inspchar": "",
+            "Inspector": "",
+            "Evaluation": "",
+            "RawResult": "",
+            "Remark": ""
+        }
+    ]
+}

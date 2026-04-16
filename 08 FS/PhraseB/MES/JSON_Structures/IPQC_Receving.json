@@ -1,0 +1,26 @@
+
+// This will be JSON structure for receving the IPQC sample Results to Vegam API
+{
+  "sampleType": "PRODUCTION_SAMPLE",
+  "sampleLabelNumber": "371584",
+  "processOrder": "001004172754",
+  "batchNumber": "0007447212",
+  "materialNumber": "1392015",
+  "materialDescription": "Liquid Detergent Lavender",
+  "plantCode": "0799",
+  "activityNumber": "0010_0023",
+  "sampleApprovalRejectedTime": "UTC",
+  "operatorName": "",
+  "sampleStatus": "Approved" [Approved or Rejected]
+  "adjustMaterials": [
+    {
+      "materialNumber": "",
+      "batchNumber": "",
+      "quantity": 0,
+      "uom": ""
+    }
+  ],
+  "consesssionRelease": false, [True or False]
+  "resampleRequired": false,   [True or False]
+  "additionalInstructions": ""
+}

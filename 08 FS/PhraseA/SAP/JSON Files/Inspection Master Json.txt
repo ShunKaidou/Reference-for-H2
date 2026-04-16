@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "srcSystem": "P92",
+            "apiuid":"QCLADINSPAFC470AA390D0CA281A5DD4",
+            "plantMat": [
+                {
+                    "werks": "3372",
+                    "matInspData": [
+                        {   "uuid" : "QCLD337213924476504717102024161023",
+                            "matnr": "000000000001392447",
+                            "plnnr": "00065047",
+                            "plnal": "01",
+                            "plnty": "Q",
+                            "verwe": "5",
+                            "statu": "4",
+                            "slwbez": "001",
+                            "qdynhead": "3",
+                            "activity_insp": [
+                                {
+                                    "vornr": "0010",
+                                    "arbpl": "QC-LAB",
+                                    "ltxa1": "null",
+                                    "usr00": "null",
+                                    "usr01": "null",
+                                    "inspecCharecter": [
+                                        {
+                                            "merknr": "0010",
+                                            "steuerkz": "X   =  .X    X       X",
+                                            "pmethode": "01790101",
+                                            "qmtbWerks": "3364",
+                                            "verwmerkm": "00003278",
+                                            "qpmkZaeh": "3364",
+                                            "kurztext": "Visual Inspection",
+                                            "stichprver": "QUAL-01",
+                                            "qdynregel": "null",
+                                            "formelsl": "null",
+                                            "formel1": "null",
+                                            "formel2": "null",
+                                            "stellen": 0,
+                                            "masseinhsw": "null",
+                                            "tolunni": "null",
+                                            "tolobni": "null",
+                                            "toleranzun": "0.0000000000000000E+00",
+                                            "toleranzob": "0.0000000000000000E+00",
+                                            "plausiunni": "null",
+                                            "plausiobni": "null",
+                                            "plausiunte": "0.0000000000000000E+00",
+                                            "plausioben": "0.0000000000000000E+00",
+                                            "sollwert": "0.0000000000000000E+00",
+                                            "dummy10": "COA",
+                                            "dummy20": "COA",
+                                            "dummy40": "Black paste, free from contamination",
+                                            "micresultrecordingtype": "1",
+                                            "charat_id1":"APPEARANCE",
+                                            "plmk_kurztext_en:"Visual Inspection",
+                                            "plmk_kurztext_zh:"外观检验"
+                                        },
+                                        {
+                                            "merknr": "0020",
+                                            "steuerkz": "XX XXX= +.X X X",
+                                            "pmethode": "01808101",
+                                            "qmtbWerks": "3364",
+                                            "verwmerkm": "00000032",
+                                            "qpmkZaeh": "3364",
+                                            "kurztext": "Viscosity Brookfield",
+                                            "stichprver": "QUAN-01",
+                                            "qdynregel": "null",
+                                            "formelsl": "null",
+                                            "formel1": "null",
+                                            "formel2": "null",
+                                            "stellen": 0,
+                                            "masseinhsw": "C7",
+                                            "tolunni": "null",
+                                            "tolobni": "null",
+                                            "toleranzun": "0.0000000000000000E+00",
+                                            "toleranzob": "0.0000000000000000E+00",
+                                            "plausiunni": "X",
+                                            "plausiobni": "X",
+                                            "plausiunte": "0.0000000000000000E+00",
+                                            "plausioben": "9.9999000000000000E+00",
+                                            "sollwert": "4.7117000000000000E+00",
+                                            "dummy10": "null",
+                                            "dummy20": "null",
+                                            "dummy40": "@ 0.5 rpm",
+                                            "micresultrecordingtype": "0",
+                                            "charat_id1":"VISCOSIT（HM)",
+                                            "plmk_kurztext_en:"Viscosity Brookfield（RV)",
+                                            "plmk_kurztext_zh:"粘度"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

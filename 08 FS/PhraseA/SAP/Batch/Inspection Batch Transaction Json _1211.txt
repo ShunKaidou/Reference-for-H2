@@ -1,0 +1,30 @@
+[   
+ {"srcSystem":"P93",
+  "apiuid":"QCLADBATCHAFC470AA390D0CA281A5DD4",
+  "inspBatchTran":[
+    {"werks":"0759",
+     "inspBatchMat":[
+       {"uuid" :"QCLD07591166395124555617102024141234",
+        "matnr":"000000000001166395",
+        "charg":"1245556",
+        "vfdat":"2025-04-03",
+        "lwedt":"2024-06-09",
+        "qndat":null,
+        "lifnr":"0000173146",
+        "hsdat":"2024-05-09"
+       },
+       {"uuid" :"QCLD07592024604454370648317102024141234",
+        "matnr":"000000000002024604",
+        "charg":"4543706483",
+        "vfdat":"--",
+        "lwedt":"--",
+        "qndat":null,
+        "lifnr":null,
+        "hsdat":"--"
+       }
+      ]
+     }
+    ]
+  }
+]
+  

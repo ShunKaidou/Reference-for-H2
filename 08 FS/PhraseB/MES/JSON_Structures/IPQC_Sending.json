@@ -1,0 +1,12 @@
+
+// This will be JSON structure of IPQC to send the details to the QCLAD API
+{
+  "sampleType": "PRODUCTION_SAMPLE",
+  "sampleLabelNumber": "371584",
+  "processOrder": "001004172754",
+  "batchNumber": "0007447212",
+  "materialNumber": "1392015",
+  "materialDescription": "Liquid Detergent Lavender",
+  "plantCode": "0799",
+  "activityNumber": "0010_0023",
+  }

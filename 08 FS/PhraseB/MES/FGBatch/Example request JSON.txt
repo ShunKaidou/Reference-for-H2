@@ -1,0 +1,54 @@
+Example request JSON:
+[
+    {
+        "srcSystem": "R93",
+        "apiuid": "INP_API_690B7D1CB73E1FE0A089A97405134345",
+        "bulkFgPlant": [
+            {
+                "plant": "0759",
+                "fillMatList": [
+                    {
+                        "bulkFgUuid": "BLK_FG_320B7D1CB73E1FD09F86E2AE26BA691C",
+                        "fillingIdh": "2163421",
+                        "fillingBatch": "FILL1234",
+                        "fillingProcessOrder": "0970635",
+                        "bulkMatList": [
+                            {
+                                "bulkIdh": "2163422",
+                                "bulkBatchNumber": "BULK1234",
+                                "bulkProcessNumber": "0970636",
+                                "fillBatchAsgDate": "2025-08-22:10-45-59"
+                            },
+                            {
+                                "bulkIdh": "2163423",
+                                "bulkBatchNumber": "BULK1235",
+                                "bulkProcessNumber": "0970638",
+                                "fillBatchAsgDate": "2025-08-22:10-48-59"
+                            }
+                        ]
+                    },
+                    {
+                        "bulkFgUuid": "BLK_FG_320B7D1CB73E1FD09F86E2AE26B7B91C",
+                        "fillingIdh": "2163431",
+                        "fillingBatch": "FILL2234",
+                        "fillingProcessOrder": "0970645",
+                        "bulkMatList": [
+                            {
+                                "bulkIdh": "2163432",
+                                "bulkBatchNumber": "BULK2234",
+                                "bulkProcessNumber": "0970646",
+                                "fillBatchAsgDate": "2025-08-22:11-45-59"
+                            },
+                            {
+                                "bulkIdh": "2163433",
+                                "bulkBatchNumber": "BULK2235",
+                                "bulkProcessNumber": "0970648",
+                                "fillBatchAsgDate": "2025-08-22:11-48-59"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

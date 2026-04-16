@@ -1,0 +1,117 @@
+{
+    "data": [
+        {
+            "src_system": "P93",
+            "apiuid": "E8B9f53A00DB46EEA6776b47c37d5948",
+            "plantMaterial": [
+                { 
+                    "werks": "0759",
+                    "matData": [
+                        {   "uuid":  "QCLD0759101160317102024122345",
+                            "matnr": "000000000001011603",
+                            "maktx": "Sodium bicarbonate",
+                            "bklas": "ROH",
+                            "dispo": "305",
+                            "mmsta": "Y2",
+                            "xchar": "X",
+                            "prfrq": 0,
+                            "pstat": "BG",
+                            "lvorm": "null",
+                            "mhdhb": 365,
+                            "lgtyp": "null",
+                            "inspType": [
+                                {
+                                    "art": "01PQ",
+                                    "aktiv": "X",
+                                    "apa": "X",
+                                    "dnyregel": null,
+                                    "mpdau": 1
+                                },
+                                {
+                                    "art": "09P",
+                                    "aktiv": "X",
+                                    "apa": "X",
+                                    "dnyregel": null,
+                                    "mpdau": 1
+                                },
+                                {
+                                    "art": "89P",
+                                    "aktiv": "X",
+                                    "apa": "X",
+                                    "dnyregel": null,
+                                    "mpdau": 1
+                                }
+                            ]
+                        },
+                        {   "uuid" : "QCLD0759116639517102024122345",
+                            "matnr": "000000000001166395",
+                            "maktx": "TEROSON RB S412H BULK",
+                            "bklas": "UNE",
+                            "dispo": "151",
+                            "mmsta": "Y2",
+                            "xchar": "X",
+                            "prfrq": 150,
+                            "pstat": "BG",
+                            "lvorm": " ",
+                            "mhdhb": 180,
+                            "lgtyp": "RAZ",
+                            "inspType": [
+                                {
+                                    "art": "04P_",
+                                    "aktiv": "X",
+                                    "apa": "X",
+                                    "dnyregel": null,
+                                    "mpdau": 2
+                                }
+                            ]
+                        },
+                        {   "uuid" : "QCLD0759153972117102024122345",
+                            "matnr": "000000000001539721",
+                            "maktx": "TEROSON RB 3412 GM-01 BULK",
+                            "bklas": "UNF",
+                            "dispo": "152",
+                            "mmsta": "Y2",
+                            "xchar": "X",
+                            "prfrq": 80,
+                            "pstat": "BG",
+                            "lvorm": "null",
+                            "mhdhb": 90,
+                            "lgtyp": "RAZ",
+                            "inspType": [
+                                {
+                                    "art": "04P_",
+                                    "aktiv": "X",
+                                    "apa": "X",
+                                    "dnyregel": null,
+                                    "mpdau": 5
+                                }
+                            ]
+                        },
+                        {   "uuid" : "QCLD0759216342117102024122345",
+                            "matnr": "000000000002163421",
+                            "maktx": "TECHNOMELT PUR 4661 CN BULK",
+                            "bklas": "UNF",
+                            "dispo": "124",
+                            "mmsta": "Y2",
+                            "xchar": "X",
+                            "prfrq": 335,
+                            "pstat": "BG",
+                            "lvorm": "null",
+                            "mhdhb": 365,
+                            "lgtyp": "RAZ",
+                            "inspType": [
+                                {
+                                    "art": "04P_",
+                                    "aktiv": "X",
+                                    "apa": "X",
+                                    "dnyregel": null,
+                                    "mpdau": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

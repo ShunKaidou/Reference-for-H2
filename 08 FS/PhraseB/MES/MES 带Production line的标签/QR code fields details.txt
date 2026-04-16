@@ -1,0 +1,5 @@
+QR code fields details :- 
+
+1) Plant code 2) Material 3) Batch 4) N/A (fixed value) 4) Phase No 5) Label Number 6) Sample date 7) Sample time 8) IPQC (Fixed value)
+
+value :- 0759;2014783;4553757568;N/A;0001;00001337177;2025-11-19;1:36 PM;IPQC

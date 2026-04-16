@@ -1,0 +1,131 @@
+{
+  "data": [
+    {
+      "srcSystem": "P93",
+      "apiuid": "QCLADINSPTAFC470AA390D0CA281A5DD4",
+      "inspMatPlnt": [
+        {
+          "werks": "0759",
+          "inspmatdata": [
+            {
+              "uuid": "QCLD07599972731337322817102024161023",
+              "matnr": "000000000000997273",
+              "prueflos": "000013373228",
+              "art": "01PQ",
+              "charg": "1245556",
+              "insp_lot_status": "A",
+              "aufnr": null,
+              "lichn": "1234",
+              "lagortchrg": "0005",
+              "vfdat": "2025-03-04",
+              "lwedt": "2024-09-06",
+              "qndat": null,
+              "lifnr": "0000173146",
+              "hsdat": "2024-05-09",
+              "activity_insp": [
+                {
+                  "vornr": "0010",
+                  "inspecChar": [
+                    {
+                      "vorglfnr": "00000001",
+                      "sollstpumf": 1,
+                      "merknr": "0010",
+                      "ersteller": "RAJESHN",
+                      "erstelldat": "2024-06-09",
+                      "satzstatus": "1",
+                      "pmethode": "LOM76001",
+                      "verwmerkm": "LOC76001"
+                    },
+                    {
+                      "vorglfnr": "00000001",
+                      "sollstpumf": 1,
+                      "merknr": "0020",
+                      "ersteller": "RAJESHN",
+                      "erstelldat": "2024-06-09",
+                      "satzstatus": "4",
+                      "pmethode": "LOM76002",
+                      "verwmerkm": "LOC76004"
+                    },
+                    {
+                      "vorglfnr": "00000001",
+                      "sollstpumf": 1,
+                      "merknr": "0030",
+                      "ersteller": "RAJESHN",
+                      "erstelldat": "2024-06-09",
+                      "satzstatus": "1",
+                      "pmethode": "LOM76122",
+                      "verwmerkm": "LOC76147"
+                    },
+                    {
+                      "vorglfnr": "00000001",
+                      "sollstpumf": 1,
+                      "merknr": "0040",
+                      "ersteller": "RAJESHN",
+                      "erstelldat": "2024-06-09",
+                      "satzstatus": "4",
+                      "pmethode": "LOM76083",
+                      "verwmerkm": "LOC76108"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "uuid": "QCLD075920246041337318917102024161023",
+              "matnr": "000000000002024604",
+              "prueflos": "000013373189",
+              "art": "04P_",
+              "charg": "4543706483",
+              "insp_lot_status": "A",
+              "aufnr": "001002906483",
+              "lichn": null,
+              "lagortchrg": null,
+              "vfdat": null,
+              "lwedt": null,
+              "qndat": null,
+              "lifnr": null,
+              "hsdat": null,
+              "activity_insp": [
+                {
+                  "vornr": "0010",
+                  "inspecChar": [
+                    {
+                      "vorglfnr": "00000001",
+                      "sollstpumf": 1250,
+                      "merknr": "0010",
+                      "ersteller": "RAVIPR",
+                      "erstelldat": "2024-10-09",
+                      "satzstatus": "1",
+                      "pmethode": "01905201",
+                      "verwmerkm": "00000049"
+                    },
+                    {
+                      "vorglfnr": "00000001",
+                      "sollstpumf": 1250,
+                      "merknr": "0020",
+                      "ersteller": "RAVIPR",
+                      "erstelldat": "2024-10-09",
+                      "satzstatus": "1",
+                      "pmethode": "01906301",
+                      "verwmerkm": "00002589"
+                    },
+                    {
+                      "vorglfnr": "00000001",
+                      "sollstpumf": 1250,
+                      "merknr": "0030",
+                      "ersteller": "RAVIPR",
+                      "erstelldat": "2024-10-09",
+                      "satzstatus": "1",
+                      "pmethode": "01904801",
+                      "verwmerkm": "00004822"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

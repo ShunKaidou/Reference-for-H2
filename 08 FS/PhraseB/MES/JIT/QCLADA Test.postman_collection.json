@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "3608d6d0-0835-42a5-9a13-c5ce32ffd058",
+		"name": "QCLADA Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27015484",
+		"_collection_link": "https://gold-shuttle-256574.postman.co/workspace/wgqtesting~d80b5728-bcb5-499a-8e13-a0c952097687/collection/27015484-3608d6d0-0835-42a5-9a13-c5ce32ffd058?action=share&source=collection_link&creator=27015484"
+	},
+	"item": [
+		{
+			"name": "Get Acess",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "20355725",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "9cbd5860-2de4-417c-a9db-56bd365ad6f2",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.2.203:8081/VegamOauthServer/GetAccessToken",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"2",
+						"203"
+					],
+					"port": "8081",
+					"path": [
+						"VegamOauthServer",
+						"GetAccessToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sample Status Api",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "xnpaYdGeUjN9HKOaJkeFr_uyRycYh7LXoAhGs29s-Sco3yxGimUe5-wQB1pVi9g9HW9olsS0bGF96h1h8IIQc29Jabyv4NT7cWIv3-V_7rHcl23-wGHh1IhMqPdr_cZKko8g_wq7amXV1FagNfgxN-2sdPGbXClK0baJuy136R6gB9DxXEFuBGsIhxFvgWE0W9qxCSvTLNAu2e6_P2eljIDdfUOYPpjkvrkbW83N5CgjPCuvQygO4XflWqedFOo9HuBIvyGQ64Md7qs8co4Rk1_pZWkmnqb3MMymsKXIk1BanZGPQKd44MoCpNRYkZgL",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ClientUniqueID\": 20355725,\r\n  \"SampleLabelNumber\": \"0000218957\",\r\n  \"SampleType\": \"JIT\",\r\n  \"ProcessOrder\": \"\",\r\n  \"BatchNumber\": \"A12W33\",\r\n  \"MaterialNumber\": \"2443020\",\r\n  \"MaterialDescription\": \"HM-1000\",\r\n  \"PlantCode\": \"0795\",\r\n  \"ActivityNumber\": \"\",\r\n  \"SampleApprovalRejectedTime\": \"2025-09-11 10:30:00\",\r\n  \"OperatorName\": \"Meghs\",\r\n  \"IsQCAdjustment\": false,\r\n  \"IsFinalRejection\": false,\r\n  \"ConcessionRelease\": false,\r\n  \"ResampleRequired\": false,\r\n  \"AdjustMaterials\": [\r\n    {\r\n      \"MaterialNumber\": \"\",\r\n      \"BatchNumber\": \"\",\r\n      \"Quantity\": 15.5,\r\n      \"UOM\": \"KG\",\r\n      \"StorageLocation\": \"\"\r\n    },\r\n    {\r\n      \"MaterialNumber\": \"\",\r\n      \"BatchNumber\": \"\",\r\n      \"Quantity\": ,\r\n      \"UOM\": \"\",\r\n      \"StorageLocation\": \"\"\r\n    }\r\n  ],\r\n  \"SampleStatus\": \"Approved\",\r\n  \"Remark\": \"Urgent sample for analysis\",\r\n  \"QCSampleResult\": \"\",\r\n  \"QCLabItemResultList\": [\r\n    {\r\n      \"ItemNumber\": 1,\r\n      \"LabItemType\": \"Chemical\",\r\n      \"InspectionLot\": \"LOT1001\",\r\n      \"InspectionCharNumber\": \"ICN001\",\r\n      \"MasterInspectionCharacteristics\": \"MIC001\",\r\n      \"InspectionCharacteristicsText\": \"pH Value\",\r\n      \"InspectionMethod\": \"PH-METER\",\r\n      \"InspectionMethodText\": \"pH Meter Test\",\r\n      \"LowerSpecLimit\": 6.5,\r\n      \"UpperSpecLimit\": 7.5,\r\n      \"DecimalPlace\": 2,\r\n      \"MeasureUnit\": \"pH\",\r\n      \"ResultRecordType\": \"Single\",\r\n      \"sampleStatus\": \"In Progress\",\r\n      \"Result\": \"7.1\",\r\n      \"Comments\": \"Within acceptable range\"\r\n    },\r\n    {\r\n      \"ItemNumber\": 2,\r\n      \"LabItemType\": \"Physical\",\r\n      \"InspectionLot\": \"LOT1002\",\r\n      \"InspectionCharNumber\": \"ICN002\",\r\n      \"MasterInspectionCharacteristics\": \"MIC002\",\r\n      \"InspectionCharacteristicsText\": \"Viscosity\",\r\n      \"InspectionMethod\": \"VISC-METER\",\r\n      \"InspectionMethodText\": \"Viscosity Measurement\",\r\n      \"LowerSpecLimit\": 50,\r\n      \"UpperSpecLimit\": 70,\r\n      \"DecimalPlace\": 1,\r\n      \"MeasureUnit\": \"cP\",\r\n      \"ResultRecordType\": \"Average\",\r\n      \"sampleStatus\": \"Completed\",\r\n      \"Result\": \"65.2\",\r\n      \"Comments\": \"Meets standard\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.2.203:8081/VegamOauthServer/api/data/UpdateSampleQualityInfo",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"2",
+						"203"
+					],
+					"port": "8081",
+					"path": [
+						"VegamOauthServer",
+						"api",
+						"data",
+						"UpdateSampleQualityInfo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
