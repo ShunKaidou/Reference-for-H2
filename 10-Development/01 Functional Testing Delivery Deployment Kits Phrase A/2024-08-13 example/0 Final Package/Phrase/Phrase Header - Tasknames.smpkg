@@ -1,0 +1,862 @@
+Security Tag:7C-BC-95-32-77-DB-C1-FB-8D-7D-C8-D0-CB-5D-DB-FF-5F-47-89-5A
+{
+  "name": "Phrase Header - Tasknames",
+  "description": "Entity Deployment Package",
+  "Timestamp": "2024-03-19T16:14:20.681",
+  "Version": "21.1.0.0",
+  "operations": [
+    {
+      "description": "Data Check",
+      "operation": "data_check",
+      "deploy_action": "Run",
+      "icon": "INT_AUDITING",
+      "datastore": {
+        "PERSONNEL PM00007   ": {
+          "keyValueItems": {
+            "entityType": "PERSONNEL",
+            "identity": "PM00007   ",
+            "name": "Test_Owen"
+          }
+        }
+      }
+    },
+    {
+      "description": "PHRASE_HEADER - Tasknames",
+      "operation": "default set",
+      "deploy_action": "Create",
+      "entityType": "PHRASE_HEADER",
+      "icon": "INT_PHRASE",
+      "keys": {
+        "IDENTITY": "TASKNAMES"
+      },
+      "fieldValues": {
+        "DESCRIPTION": "List of designer background tasks used when submitting Task type background jobs",
+        "MODIFIABLE": true,
+        "NAME": "Tasknames",
+        "HAS_ATTACHMENTS": false
+      },
+      "subOperations": [
+        {
+          "description": "PHRASE - ACTIVE",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "ACTIVE"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         1",
+            "PHRASE_TEXT": "ActiveRecord",
+            "PHRASE_TEXT_ID": "ActiveRecord",
+            "PHRASE_TEXT_MS": "ActiveRecord",
+            "PHRASE_TEXT_VI": "ActiveRecord",
+            "PHRASE_TEXT_ZH": "ActiveRecord"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - SCHEDULER",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "SCHEDULER"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         2",
+            "PHRASE_TEXT": "Scheduler",
+            "PHRASE_TEXT_ID": "Scheduler",
+            "PHRASE_TEXT_MS": "Scheduler",
+            "PHRASE_TEXT_VI": "Scheduler",
+            "PHRASE_TEXT_ZH": "Scheduler"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - INST_CHECK",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "INST_CHECK"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         3",
+            "PHRASE_TEXT": "InstrumentCheck",
+            "PHRASE_TEXT_ID": "InstrumentCheck",
+            "PHRASE_TEXT_MS": "InstrumentCheck",
+            "PHRASE_TEXT_VI": "InstrumentCheck",
+            "PHRASE_TEXT_ZH": "InstrumentCheck"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - STOCK_CHEC",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "STOCK_CHEC"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         4",
+            "PHRASE_TEXT": "StockCheck",
+            "PHRASE_TEXT_ID": "StockCheck",
+            "PHRASE_TEXT_MS": "StockCheck",
+            "PHRASE_TEXT_VI": "StockCheck",
+            "PHRASE_TEXT_ZH": "StockCheck"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - TR_CHECK",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "TR_CHECK"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         5",
+            "PHRASE_TEXT": "TrainingRecordCheck",
+            "PHRASE_TEXT_ID": "TrainingRecordCheck",
+            "PHRASE_TEXT_MS": "TrainingRecordCheck",
+            "PHRASE_TEXT_VI": "TrainingRecordCheck",
+            "PHRASE_TEXT_ZH": "TrainingRecordCheck"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - GEN_REPORT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "GEN_REPORT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         6",
+            "PHRASE_TEXT": "GenericBackgroundReportingTask",
+            "PHRASE_TEXT_ID": "GenericBackgroundReportingTask",
+            "PHRASE_TEXT_MS": "GenericBackgroundReportingTask",
+            "PHRASE_TEXT_VI": "GenericBackgroundReportingTask",
+            "PHRASE_TEXT_ZH": "GenericBackgroundReportingTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - WFLOW",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "WFLOW"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         7",
+            "PHRASE_TEXT": "RunWorkflowBackground",
+            "PHRASE_TEXT_ID": "RunWorkflowBackground",
+            "PHRASE_TEXT_MS": "RunWorkflowBackground",
+            "PHRASE_TEXT_VI": "RunWorkflowBackground",
+            "PHRASE_TEXT_ZH": "RunWorkflowBackground"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - WFLOW_ACT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "WFLOW_ACT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         8",
+            "PHRASE_TEXT": "RunWorkflowActionBackground",
+            "PHRASE_TEXT_ID": "RunWorkflowActionBackground",
+            "PHRASE_TEXT_MS": "RunWorkflowActionBackground",
+            "PHRASE_TEXT_VI": "RunWorkflowActionBackground",
+            "PHRASE_TEXT_ZH": "RunWorkflowActionBackground"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - SQC_GENREP",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "SQC_GENREP"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "         9",
+            "PHRASE_TEXT": "SqcBackgroundActionsTask",
+            "PHRASE_TEXT_ID": "SqcBackgroundActionsTask",
+            "PHRASE_TEXT_MS": "SqcBackgroundActionsTask",
+            "PHRASE_TEXT_VI": "SqcBackgroundActionsTask",
+            "PHRASE_TEXT_ZH": "SqcBackgroundActionsTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FREEZEUSER",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FREEZEUSER"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        10",
+            "PHRASE_TEXT": "InactiveUsers",
+            "PHRASE_TEXT_ID": "InactiveUsers",
+            "PHRASE_TEXT_MS": "InactiveUsers",
+            "PHRASE_TEXT_VI": "InactiveUsers",
+            "PHRASE_TEXT_ZH": "InactiveUsers"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - MAILREPORT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "MAILREPORT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        11",
+            "PHRASE_TEXT": "MailReport",
+            "PHRASE_TEXT_ID": "MailReport",
+            "PHRASE_TEXT_MS": "MailReport",
+            "PHRASE_TEXT_VI": "MailReport",
+            "PHRASE_TEXT_ZH": "MailReport"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - CL_RPOLL",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "CL_RPOLL"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        12",
+            "PHRASE_TEXT": "ChromeleonResultsEntryPoll",
+            "PHRASE_TEXT_ID": "ChromeleonResultsEntryPoll",
+            "PHRASE_TEXT_MS": "ChromeleonResultsEntryPoll",
+            "PHRASE_TEXT_VI": "ChromeleonResultsEntryPoll",
+            "PHRASE_TEXT_ZH": "ChromeleonResultsEntryPoll"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - LOTS_CHECK",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "LOTS_CHECK"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        13",
+            "PHRASE_TEXT": "LotsCheck",
+            "PHRASE_TEXT_ID": "LotsCheck",
+            "PHRASE_TEXT_MS": "LotsCheck",
+            "PHRASE_TEXT_VI": "LotsCheck",
+            "PHRASE_TEXT_ZH": "LotsCheck"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - STB_LOGIN",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "STB_LOGIN"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        14",
+            "PHRASE_TEXT": "StbCellLoginTask",
+            "PHRASE_TEXT_ID": "StbCellLoginTask",
+            "PHRASE_TEXT_MS": "StbCellLoginTask",
+            "PHRASE_TEXT_VI": "StbCellLoginTask",
+            "PHRASE_TEXT_ZH": "StbCellLoginTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - RETAINTEST",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "RETAINTEST"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        15",
+            "PHRASE_TEXT": "RetainBackgroundTask",
+            "PHRASE_TEXT_ID": "RetainBackgroundTask",
+            "PHRASE_TEXT_MS": "RetainBackgroundTask",
+            "PHRASE_TEXT_VI": "RetainBackgroundTask",
+            "PHRASE_TEXT_ZH": "RetainBackgroundTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - STB_ACTRD",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "STB_ACTRD"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        16",
+            "PHRASE_TEXT": "StbActiveRecord",
+            "PHRASE_TEXT_ID": "StbActiveRecord",
+            "PHRASE_TEXT_MS": "StbActiveRecord",
+            "PHRASE_TEXT_VI": "StbActiveRecord",
+            "PHRASE_TEXT_ZH": "StbActiveRecord"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - CT_BTASK",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "CT_BTASK"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        17",
+            "PHRASE_TEXT": "ContractTestingTask",
+            "PHRASE_TEXT_ID": "ContractTestingTask",
+            "PHRASE_TEXT_MS": "ContractTestingTask",
+            "PHRASE_TEXT_VI": "ContractTestingTask",
+            "PHRASE_TEXT_ZH": "ContractTestingTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - SW_H_CHK",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "SW_H_CHK"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        18",
+            "PHRASE_TEXT": "SweeperHealthCheck",
+            "PHRASE_TEXT_ID": "SweeperHealthCheck",
+            "PHRASE_TEXT_MS": "SweeperHealthCheck",
+            "PHRASE_TEXT_VI": "SweeperHealthCheck",
+            "PHRASE_TEXT_ZH": "SweeperHealthCheck"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - NB_LNK_U",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "NB_LNK_U"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        19",
+            "PHRASE_TEXT": "NotebookLinkUpdateTask",
+            "PHRASE_TEXT_ID": "NotebookLinkUpdateTask",
+            "PHRASE_TEXT_MS": "NotebookLinkUpdateTask",
+            "PHRASE_TEXT_VI": "NotebookLinkUpdateTask",
+            "PHRASE_TEXT_ZH": "NotebookLinkUpdateTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - RREPORT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "RREPORT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        20",
+            "PHRASE_TEXT": "RapidReportBackgroundTask",
+            "PHRASE_TEXT_ID": "RapidReportBackgroundTask",
+            "PHRASE_TEXT_MS": "RapidReportBackgroundTask",
+            "PHRASE_TEXT_VI": "RapidReportBackgroundTask",
+            "PHRASE_TEXT_ZH": "RapidReportBackgroundTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_MAN_ENT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_MAN_ENT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        21",
+            "PHRASE_TEXT": "FbManualResultEntryReportTask",
+            "PHRASE_TEXT_ID": "FbManualResultEntryReportTask",
+            "PHRASE_TEXT_MS": "FbManualResultEntryReportTask",
+            "PHRASE_TEXT_VI": "FbManualResultEntryReportTask",
+            "PHRASE_TEXT_ZH": "FbManualResultEntryReportTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_INT_OA",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_INT_OA"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        22",
+            "PHRASE_TEXT": "FbOASendingInterfaceTask",
+            "PHRASE_TEXT_ID": "FbOAReceivingInterface",
+            "PHRASE_TEXT_MS": "FbOAReceivingInterface",
+            "PHRASE_TEXT_VI": "FbOAReceivingInterface",
+            "PHRASE_TEXT_ZH": "FbOAReceivingInterface"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_SER_SYN",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_SER_SYN"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        23",
+            "PHRASE_TEXT": "FbServerSyncTask",
+            "PHRASE_TEXT_ID": "FbServerSyncTask",
+            "PHRASE_TEXT_MS": "FbServerSyncTask",
+            "PHRASE_TEXT_VI": "FbServerSyncTask",
+            "PHRASE_TEXT_ZH": "FbServerSyncTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_INS_WAR",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_INS_WAR"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        24",
+            "PHRASE_TEXT": "FbMaintenanceWarningTask",
+            "PHRASE_TEXT_ID": "FbMaintenanceWarningTask",
+            "PHRASE_TEXT_MS": "FbMaintenanceWarningTask",
+            "PHRASE_TEXT_VI": "FbMaintenanceWarningTask",
+            "PHRASE_TEXT_ZH": "FbMaintenanceWarningTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_INS_INA",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_INS_INA"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        25",
+            "PHRASE_TEXT": "FbMaintenanceInactiveMailTask",
+            "PHRASE_TEXT_ID": "FbMaintenanceInactiveMailTask",
+            "PHRASE_TEXT_MS": "FbMaintenanceInactiveMailTask",
+            "PHRASE_TEXT_VI": "FbMaintenanceInactiveMailTask",
+            "PHRASE_TEXT_ZH": "FbMaintenanceInactiveMailTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_INS_CHE",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_INS_CHE"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        26",
+            "PHRASE_TEXT": "ExtendedInstrumentCheckTask",
+            "PHRASE_TEXT_ID": "ExtendedInstrumentTask",
+            "PHRASE_TEXT_MS": "ExtendedInstrumentTask",
+            "PHRASE_TEXT_VI": "ExtendedInstrumentTask",
+            "PHRASE_TEXT_ZH": "ExtendedInstrumentTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_TEST_ME",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_TEST_ME"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        27",
+            "PHRASE_TEXT": "FbSendTestMethodFromLimsTask",
+            "PHRASE_TEXT_ID": "FbSendTestMethodFromLimsTask",
+            "PHRASE_TEXT_MS": "FbSendTestMethodFromLimsTask",
+            "PHRASE_TEXT_VI": "FbSendTestMethodFromLimsTask",
+            "PHRASE_TEXT_ZH": "FbSendTestMethodFromLimsTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_MLP",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_MLP"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        28",
+            "PHRASE_TEXT": "FBSendMLPFromLIMSTask",
+            "PHRASE_TEXT_ID": "FBSendMLPFromLIMSTask",
+            "PHRASE_TEXT_MS": "FBSendMLPFromLIMSTask",
+            "PHRASE_TEXT_VI": "FBSendMLPFromLIMSTask",
+            "PHRASE_TEXT_ZH": "FBSendMLPFromLIMSTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_DATASYN",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_DATASYN"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        29",
+            "PHRASE_TEXT": "FbDataSyncTask",
+            "PHRASE_TEXT_ID": "FbDataSyncTask",
+            "PHRASE_TEXT_MS": "FbDataSyncTask",
+            "PHRASE_TEXT_VI": "FbDataSyncTask",
+            "PHRASE_TEXT_ZH": "FbDataSyncTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_AUTO_CE",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_AUTO_CE"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        30",
+            "PHRASE_TEXT": "FbCreateCertificateBGTask",
+            "PHRASE_TEXT_ID": "FbCreateCertificateBGTask",
+            "PHRASE_TEXT_MS": "FbCreateCertificateBGTask",
+            "PHRASE_TEXT_VI": "FbCreateCertificateBGTask",
+            "PHRASE_TEXT_ZH": "FbCreateCertificateBGTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_B_RES",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_B_RES"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        31",
+            "PHRASE_TEXT": "FbSendInspectionResultBackground",
+            "PHRASE_TEXT_ID": "FbSendInspectionResultBackground",
+            "PHRASE_TEXT_MS": "FbSendInspectionResultBackground",
+            "PHRASE_TEXT_VI": "FbSendInspectionResultBackground",
+            "PHRASE_TEXT_ZH": "FbSendInspectionResultBackground"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_B_LOT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_B_LOT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        32",
+            "PHRASE_TEXT": "FbSendInspectionLotBackgroundTask",
+            "PHRASE_TEXT_ID": "FbSendInspectionLotBackgroundTask",
+            "PHRASE_TEXT_MS": "FbSendInspectionLotBackgroundTask",
+            "PHRASE_TEXT_VI": "FbSendInspectionLotBackgroundTask",
+            "PHRASE_TEXT_ZH": "FbSendInspectionLotBackgroundTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_B_CERT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_B_CERT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        33",
+            "PHRASE_TEXT": "FbSendTestingReportBackgroundTask",
+            "PHRASE_TEXT_ID": "FbSendTestingReportBackgroundTask",
+            "PHRASE_TEXT_MS": "FbSendTestingReportBackgroundTask",
+            "PHRASE_TEXT_VI": "FbSendTestingReportBackgroundTask",
+            "PHRASE_TEXT_ZH": "FbSendTestingReportBackgroundTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_DEL_ST",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_DEL_ST"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        34",
+            "PHRASE_TEXT": "FbDeleteStagingTableRecordsTask",
+            "PHRASE_TEXT_ID": "FbDeleteStagingTableRecordsTask",
+            "PHRASE_TEXT_MS": "FbDeleteStagingTableRecordsTask",
+            "PHRASE_TEXT_VI": "FbDeleteStagingTableRecordsTask",
+            "PHRASE_TEXT_ZH": "FbDeleteStagingTableRecordsTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_SYNC_AT",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_SYNC_AT"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        35",
+            "PHRASE_TEXT": "FbSyncAttachmentTask",
+            "PHRASE_TEXT_ID": "FbSyncAttachmentTask",
+            "PHRASE_TEXT_MS": "FbSyncAttachmentTask",
+            "PHRASE_TEXT_VI": "FbSyncAttachmentTask",
+            "PHRASE_TEXT_ZH": "FbSyncAttachmentTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_SYNC_PE",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_SYNC_PE"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        36",
+            "PHRASE_TEXT": "FbSyncPersonnelTask",
+            "PHRASE_TEXT_ID": "FbSyncPersonnelTask",
+            "PHRASE_TEXT_MS": "FbSyncPersonnelTask",
+            "PHRASE_TEXT_VI": "FbSyncPersonnelTask",
+            "PHRASE_TEXT_ZH": "FbSyncPersonnelTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_ST_CHEC",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_ST_CHEC"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        37",
+            "PHRASE_TEXT": "FbStockCheckTask",
+            "PHRASE_TEXT_ID": "FbStockCheckTask",
+            "PHRASE_TEXT_MS": "FbStockCheckTask",
+            "PHRASE_TEXT_VI": "FbStockCheckTask",
+            "PHRASE_TEXT_ZH": "FbStockCheckTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_RE_APAC",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_RE_APAC"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        38",
+            "PHRASE_TEXT": "FbSendInspectionLotResultApacBGTask",
+            "PHRASE_TEXT_ID": "FbSendInspectionLotResultApacBGTask",
+            "PHRASE_TEXT_MS": "FbSendInspectionLotResultApacBGTask",
+            "PHRASE_TEXT_VI": "FbSendInspectionLotResultApacBGTask",
+            "PHRASE_TEXT_ZH": "FbSendInspectionLotResultApacBGTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_DEL_LOG",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_DEL_LOG"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        39",
+            "PHRASE_TEXT": "FbDeleteInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_ID": "FbDeleteInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_MS": "FbDeleteInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_VI": "FbDeleteInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_ZH": "FbDeleteInterfaceLogBackgroundTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_DEL_S_L",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_DEL_S_L"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        40",
+            "PHRASE_TEXT": "FbDeleteSweeperLogBackgroundTask",
+            "PHRASE_TEXT_ID": "FbDeleteSweeperLogBackgroundTask",
+            "PHRASE_TEXT_MS": "FbDeleteSweeperLogBackgroundTask",
+            "PHRASE_TEXT_VI": "FbDeleteSweeperLogBackgroundTask",
+            "PHRASE_TEXT_ZH": "FbDeleteSweeperLogBackgroundTask"
+          },
+          "subOperations": []
+        },
+        {
+          "description": "PHRASE - FB_DEL_R_L",
+          "operation": "default set",
+          "deploy_action": "Create",
+          "entityType": "PHRASE",
+          "icon": "INT_DATA_ROWS",
+          "keys": {
+            "PHRASE_TYPE": "TASKNAMES",
+            "PHRASE_ID": "FB_DEL_R_L"
+          },
+          "fieldValues": {
+            "ORDER_NUM": "        41",
+            "PHRASE_TEXT": "FbDeleteRecInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_ID": "FbDeleteRecInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_MS": "FbDeleteRecInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_VI": "FbDeleteRecInterfaceLogBackgroundTask",
+            "PHRASE_TEXT_ZH": "FbDeleteRecInterfaceLogBackgroundTask"
+          },
+          "subOperations": []
+        }
+      ]
+    }
+  ]
+}

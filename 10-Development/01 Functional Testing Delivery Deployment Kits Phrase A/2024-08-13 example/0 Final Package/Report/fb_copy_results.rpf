@@ -1,0 +1,60 @@
+SET NAME "DEFER/"
+SET NOTPROTECTED
+ENABLE WINDOWS
+
+SET COMPILE_OPTION DECLARE
+
+JOIN STANDARD_LIBRARY STD_CLIENT
+JOIN STANDARD_LIBRARY STD_PROMPT
+JOIN STANDARD_LIBRARY STD_WINDOW
+JOIN STANDARD_LIBRARY STD_ARRAY
+JOIN STANDARD_LIBRARY STD_MESSAGE
+JOIN STANDARD_LIBRARY STD_ARRAY_SELECT
+JOIN STANDARD_LIBRARY STD_DATABASE
+JOIN LIBRARY $LIB_UTILS
+
+{****************************************************************************** 
+Modification		Date		Author		Description
+* M01			  22-Feb-2024	WangChen		The result cannot be referenced because the value is text due to PQL
+*******************************************************************************}
+
+{******************************************************************************}
+
+ROUTINE save_result (VALUE testnum, VALUE comp, VALUE units, VALUE type, VALUE res_value, VALUE copied, VALUE fromtestnum, VALUE res_text_value){M01}
+
+DECLARE results_array, check_array
+
+DECLARE org_raw_value
+
+ARRAY results_array
+ARRAY check_array ARRAYSIZE ( 1 )
+
+org_raw_value = SELECT result . raw_result where test_number = fromtestnum and name = comp
+
+results_array[1,1] = "component_name"
+results_array[1,2] = "units"
+results_array[1,3] = "result_type"
+results_array[1,4] = "text"
+
+results_array[2,1] = comp
+results_array[2,2] = units
+results_array[2,3] = type
+
+IF NUMTEXT(res_text_value) THEN
+
+	results_array[2,4] = res_text_value{M01}
+
+ELSE
+
+	results_array[2,4] = org_raw_value {M01}
+
+ENDIF
+
+PUT_TEST_RESULTS testnum, results_array, check_array
+
+ENDROUTINE
+
+{******************************************************************************}
+
+
+

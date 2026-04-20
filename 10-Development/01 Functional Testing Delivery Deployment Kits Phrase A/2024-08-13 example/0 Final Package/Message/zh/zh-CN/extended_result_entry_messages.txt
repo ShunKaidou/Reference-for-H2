@@ -1,0 +1,105 @@
+﻿MESSAGE GROUP = "FB_RESULT_ENTRY_"
+
+! Messages for Custom Result Entry toolbar buttons 
+
+MESSAGE = "BUTTON_TRANSCRIPTION"
+TEXT    = "计划誊抄"
+TEXT	= "计划誊抄"
+TEXT    = "计划誊抄"
+
+MESSAGE = "MAKE_TRANSCRIPTION"
+TEXT    = "临时誊抄"
+TEXT	= "临时誊抄"
+TEXT    = "临时誊抄"
+
+MESSAGE = "SELECT_INSTRUMENT"
+TEXT = "选择仪器"
+TEXT = "选择仪器"
+TEXT = "选择仪器"
+
+
+MESSAGE = "SAMPLE_ATTACHMENT"
+TEXT = "样品附件"
+TEXT = "样品附件"
+TEXT = "样品附件"
+
+MESSAGE = "TEST_ATTACHMENT"
+TEXT = "检测项附件"
+TEXT = "检测项附件"
+TEXT = "检测项附件"
+
+
+MESSAGE = "RESULT_ATTACHMENT"
+TEXT = "结果附件"
+TEXT = "结果附件"
+TEXT = "结果附件"
+
+MESSAGE	  = "PERFORM_MANUAL_ENTRY"
+TEXT		  = "转手动录入"
+TEXT		  = "转手动录"
+TEXT		  = "转手动录"
+
+MESSAGE	  = "PERFORM_MANUAL_ENTRY_DONE"
+TEXT		  = "已转手动录入"
+TEXT		  = "已转手动录"
+TEXT		  = "已转手动录"
+
+MESSAGE	  = "SAMPLE_QUOTE"
+TEXT		  = "样品结果引用"
+TEXT		  = "样品结果引用"
+TEXT		  = "样品结果引用"
+
+MESSAGE	  = "TEST_QUOTE"
+TEXT		  = "测试结果引用"
+TEXT		  = "测试结果引用"
+TEXT		  = "测试结果引用"
+
+MESSAGE	  = "TEST_TRACE"
+TEXT		  = "操作记录"
+TEXT		  = "操作记录"
+TEXT		  = "操作记录"
+
+MESSAGE	  = "EDIT_ATTACHMENT"
+TEXT		  = "编辑附件"
+TEXT		  = "编辑附件"
+TEXT		  = "编辑附件"
+
+MESSAGE	  = "TRANSCRIPTION_DONE"
+TEXT		  = "已转誊抄"
+TEXT		  = "已转誊抄"
+TEXT		  = "已转誊抄"
+
+MESSAGE	  = "NOT_FOUND_TEST"
+TEXT		  = "测试已转手工录或已誊抄，未找到需要誊抄的测试"
+TEXT		  = "测试已转手工录或已誊抄，未找到需要誊抄的测试"
+TEXT		  = "测试已转手工录或已誊抄，未找到需要誊抄的测试"
+
+MESSAGE	  = "INST_NOT_SELECTED"
+TEXT		  = "未选择任何仪器"
+TEXT		  = "未选择任何仪器"
+TEXT		  = "未选择任何仪器"
+
+MESSAGE	  = "NOT_FOUND_INSTRUMENT"
+TEXT		  = "未找到用于测试的仪器集合"
+TEXT		  = "未找到用于测试的仪器集合"
+TEXT		  = "未找到用于测试的仪器集合"
+
+MESSAGE	  = "TEST_IS_TRANSCRIBE"
+TEXT		  = "测试为誊抄项目，无法进行转手工录入"
+TEXT		  = "测试为誊抄项目，无法进行转手工录入"
+TEXT		  = "测试为誊抄项目，无法进行转手工录入"
+
+MESSAGE   = "RESULT_ENTRY_BUTTON_AUTHORISE_CUSTOM"
+TEXT		  = "批准所有测试和结果"
+TEXT		  = "批准所有测试和结果"
+TEXT		  = "批准所有测试和结果"
+
+MESSAGE   = "RESULT_ENTRY_IS_QUOTE"
+TEXT		  = "结果为引用结果，无法修改"
+TEXT		  = "结果为引用结果，无法修改"
+TEXT		  = "结果为引用结果，无法修改"
+
+MESSAGE   = "RESULT_ENTRY_IS_INSTRUMENT_MAND"
+TEXT		  = "结果为仪器强控，无法手工录入"
+TEXT		  = "结果为仪器强控，无法手工录入"
+TEXT		  = "结果为仪器强控，无法手工录入"

@@ -1,0 +1,105 @@
+﻿MESSAGE GROUP = "FB_RESULT_ENTRY_"
+
+! Messages for Custom Result Entry toolbar buttons 
+
+MESSAGE = "BUTTON_TRANSCRIPTION"
+TEXT    = "Start Transcription of the results"
+TEXT	= "Start Transcription"
+TEXT    = "Start Transcription"
+
+MESSAGE = "MAKE_TRANSCRIPTION"
+TEXT    = "Transcription of the results"
+TEXT	= "Make Transcription"
+TEXT    = "Make Transcription"
+
+MESSAGE = "SELECT_INSTRUMENT"
+TEXT = "Select Instrument"
+TEXT = "Select Instrument"
+TEXT = "Select Instrument"
+
+
+MESSAGE = "SAMPLE_ATTACHMENT"
+TEXT = "Sample Attachment"
+TEXT = "Sample Attachment"
+TEXT = "Sample Attachment"
+
+MESSAGE = "TEST_ATTACHMENT"
+TEXT = "Test Attachment"
+TEXT = "Test Attachment"
+TEXT = "Test Attachment"
+
+
+MESSAGE = "RESULT_ATTACHMENT"
+TEXT = "Result Attachment"
+TEXT = "Result Attachment"
+TEXT = "Result Attachment"
+
+MESSAGE	  = "PERFORM_MANUAL_ENTRY"
+TEXT		  = "Perform Manual Result Entry"
+TEXT		  = "Perform Manual Result Entry"
+TEXT		  = "Perform Manual Result Entry"
+
+MESSAGE	  = "PERFORM_MANUAL_ENTRY_DONE"
+TEXT		  = "The test has been changed to manual entry"
+TEXT		  = "The test has been changed to manual entry"
+TEXT		  = "The test has been changed to manual entry"
+
+MESSAGE	  = "SAMPLE_QUOTE"
+TEXT		  = "Sample Quote"
+TEXT		  = "Sample Quote"
+TEXT		  = "Sample Quote"
+
+MESSAGE	  = "TEST_QUOTE"
+TEXT		  = "Test Quote"
+TEXT		  = "Test Quote"
+TEXT		  = "Test Quote"
+
+MESSAGE	  = "TEST_TRACE"
+TEXT		  = "Test Traceability"
+TEXT		  = "Test Traceability"
+TEXT		  = "Test Traceability"
+
+MESSAGE	  = "EDIT_ATTACHMENT"
+TEXT		  = "Edit Attachment"
+TEXT		  = "Edit Attachment"
+TEXT		  = "Edit Attachment"
+
+MESSAGE	  = "TRANSCRIPTION_DONE"
+TEXT		  = "Has been make transcription"
+TEXT		  = "Has been make transcription"
+TEXT		  = "Has been make transcription"
+
+MESSAGE	  = "NOT_FOUND_TEST"
+TEXT		  = "Not found test"
+TEXT		  = "Not found test"
+TEXT		  = "Not found test"
+
+MESSAGE	  = "INST_NOT_SELECTED"
+TEXT		  = "No instrument has been selected"
+TEXT		  = "No instrument has been selected"
+TEXT		  = "No instrument has been selected"
+
+MESSAGE	  = "NOT_FOUND_INSTRUMENT"
+TEXT		  = "No instrument collection found for test"
+TEXT		  = "No instrument collection found for test"
+TEXT		  = "No instrument collection found for test"
+
+MESSAGE	  = "TEST_IS_TRANSCRIBE"
+TEXT		  = "Test is a transcription item and cannot be transferred to manual entry"
+TEXT		  = "Test is a transcription item and cannot be transferred to manual entry"
+TEXT		  = "Test is a transcription item and cannot be transferred to manual entry"
+
+MESSAGE   = "RESULT_ENTRY_BUTTON_AUTHORISE_CUSTOM"
+TEXT		  = "Authorise all tests and results"
+TEXT		  = "Authorise all tests and results"
+TEXT		  = "Authorise all tests and results"
+
+MESSAGE   = "RESULT_ENTRY_IS_QUOTE"
+TEXT		  = "The result is a quote result and cannot be modified"
+TEXT		  = "The result is a quote result and cannot be modified"
+TEXT		  = "The result is a quote result and cannot be modified"
+
+MESSAGE   = "RESULT_ENTRY_IS_INSTRUMENT_MAND"
+TEXT		  = "The results are transferred by the instrument and cannot be entered manually"
+TEXT		  = "The results are transferred by the instrument and cannot be entered manually"
+TEXT		  = "The results are transferred by the instrument and cannot be entered manually"

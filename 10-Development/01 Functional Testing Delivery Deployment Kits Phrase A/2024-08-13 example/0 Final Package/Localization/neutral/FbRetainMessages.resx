@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FBAmount" xml:space="preserve">
+    <value>Amount can not be greater than the current number</value>
+  </data>
+  <data name="FBApplicationDispose" xml:space="preserve">
+    <value>This application record is not available for dispose!</value>
+  </data>
+  <data name="FBCannotMoveSample" xml:space="preserve">
+    <value>Cannot move the Sample to the same location.</value>
+  </data>
+  <data name="FBCommentForReturn" xml:space="preserve">
+    <value>Please enter the comment for return</value>
+  </data>
+  <data name="FBCommentForReturnCaution" xml:space="preserve">
+    <value>Please enter the comment for return. Caution! This comment will set for all the selected samples</value>
+  </data>
+  <data name="FBComments" xml:space="preserve">
+    <value>Please enter comments</value>
+  </data>
+  <data name="FBCrossCheck" xml:space="preserve">
+    <value>Please cross check</value>
+  </data>
+  <data name="FBCurrentQuantity" xml:space="preserve">
+    <value>Current Quantity Of {0} is less than the take out quantity.The sample {0} will not be processed further.</value>
+  </data>
+  <data name="FBEnterOperator" xml:space="preserve">
+    <value>Please enter an operator</value>
+  </data>
+  <data name="FBError" xml:space="preserve">
+    <value>Please enter estimated return date</value>
+  </data>
+  <data name="FBMessage" xml:space="preserve">
+    <value>Message - {0}</value>
+  </data>
+  <data name="FBMoveLocationConVal" xml:space="preserve">
+    <value>Cannot move the container to the same location!.</value>
+  </data>
+  <data name="FBMoveSample" xml:space="preserve">
+    <value>Cannot move the Sample to the same location!.</value>
+  </data>
+  <data name="FBProcessConVal" xml:space="preserve">
+    <value>The sample is already packed to the selected container!.</value>
+  </data>
+  <data name="FBReconcileQuantity" xml:space="preserve">
+    <value>Reconcile quantity should not be negative or zero. The sample process will not be continued further</value>
+  </data>
+  <data name="FBRetainPlanErrorName" xml:space="preserve">
+    <value>Retain Plan</value>
+  </data>
+  <data name="FBRetainPlanErrorValue" xml:space="preserve">
+    <value>Atleast one "Material Category" needed to be added in order to save the 'Retain Plan'!</value>
+  </data>
+  <data name="FBRetainReturnBack" xml:space="preserve">
+    <value>Return Back Quantity should not be negative Or Zero.The sample process will not be continued further</value>
+  </data>
+  <data name="FBRetainSample" xml:space="preserve">
+    <value>Retain Sample</value>
+  </data>
+  <data name="FBReturnComment" xml:space="preserve">
+    <value>Return Comment</value>
+  </data>
+  <data name="FBSampleReturnBack" xml:space="preserve">
+    <value>Sample should be return back.</value>
+  </data>
+  <data name="FBSelectRetainSample" xml:space="preserve">
+    <value>Select a retain sample</value>
+  </data>
+  <data name="FBSelectValue" xml:space="preserve">
+    <value>Please select a value</value>
+  </data>
+  <data name="FBSystemExceptionName" xml:space="preserve">
+    <value>Retain Plan Error</value>
+  </data>
+  <data name="FBTakenOut" xml:space="preserve">
+    <value>Taken Amount should be less than Current Quantity!..</value>
+  </data>
+  <data name="FBTakenQuantity" xml:space="preserve">
+    <value>Taken quantity should not be negative Or Zero.The sample {0} will not be processed further.</value>
+  </data>
+  <data name="FBTakeOutNotAvailable" xml:space="preserve">
+    <value>Take out is not available for this application type, or already take out!</value>
+  </data>
+  <data name="FBWarning" xml:space="preserve">
+    <value>Warning - </value>
+  </data>
+  <data name="FBWarningString" xml:space="preserve">
+    <value>Warning - {0}</value>
+  </data>
+</root>
